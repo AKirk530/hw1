@@ -165,3 +165,213 @@ INSERT INTO movies (
     "Christopher",
     "Nolan"
 );
+
+--Insert (CRUD) Data Cast - Batman Begins
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "Batman Begins",
+    "Christian",
+    "Bale",
+    "Bruce Wayne",
+    "1"
+);
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "Batman Begins",
+    "Michael",
+    "Caine",
+    "Alfred",
+    "2"
+);
+
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "Batman Begins",
+    "Liam",
+    "Neeson",
+    "Ra's Al Ghul",
+    "3"
+);
+
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "Batman Begins",
+    "Katie",
+    "Holmes",
+    "Rachel Dawes",
+    "4"
+);
+
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "Batman Begins",
+    "Gary",
+    "Oldman",
+    "Commissioner Gordon",
+    "5"
+);
+
+--Insert (CRUD) Data Cast - The Dark Knight
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "The Dark Knight",
+    "Christian",
+    "Bale",
+    "Bruce Wayne",
+    "1"
+);
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "The Dark Knight",
+    "Heath",
+    "Ledger",
+    "Joker",
+    "2"
+);
+
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "The Dark Knight",
+    "Aaron",
+    "Eckhart",
+    "Harvey Dent",
+    "3"
+);
+
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "The Dark Knight",
+    "Michael",
+    "Kaine",
+    "Alfred",
+    "4"
+);
+
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "The Dark Knight",
+    "Maggie",
+    "Gyllenhaal",
+    "Rachel Dawes",
+    "5"
+);
+
+--Insert (CRUD) Data Cast - The Dark Knight Rises
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "The Dark Knight Rises",
+    "Christian",
+    "Bale",
+    "Bruce Wayne",
+    "1"
+);
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "The Dark Knight Rises",
+    "Gary",
+    "Oldman",
+    "Commissioner Gordon",
+    "2"
+);
+
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "The Dark Knight Rises",
+    "Tom",
+    "Hardy",
+    "Bane",
+    "3"
+);
+
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "The Dark Knight Rises",
+    "Joseph",
+    "Gordon-Levitt",
+    "John Blake",
+    "4"
+);
+
+INSERT INTO cast (
+    movie_name,
+    cast_first_name,
+    cast_last_name,
+    character_name,
+    character_role_rank
+) VALUES (
+    "The Dark Knight Rises",
+    "Anne",
+    "Hathaway",
+    "Selina Kyle",
+    "5"
+);

@@ -124,9 +124,8 @@ CREATE TABLE cast (
 );
 
 -- Increase Column Character Length
-ALTER TABLE movies
-MODIFY movie_name
-NCHAR (500);
+.width 25 25 25 25;
+
 
 --Insert (CRUD) Data Movies
 INSERT INTO movies (
@@ -382,5 +381,5 @@ INSERT INTO cast (
 );
 
 --Produce Results
-
+SELECT movie_name, movie_year, movie_rating, director_first_name, director_last_name FROM movies;
 SELECT movie_name, cast_first_name, cast_last_name, character_name FROM cast;

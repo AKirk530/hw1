@@ -96,8 +96,33 @@
 
 ANSWERS:
 
->>>Generate NEW SQLite database<<<
-sqlite3 kmbd.sqlite3
+-- Generate NEW SQLite database
+sqlite3 kmdb.sqlite3
 
->>>COMPLETE the ASSINGMENT<<<
-.read kmbd.sql
+-- Drop existing tables, so we start fresh
+-- run of this script
+
+DROP TABLE IF EXISTS movies;
+DROP TABLE IF EXISTS cast;
+
+CREATE TABLE movies (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    movie_id INTEGER,
+    movie_name TEXT,
+    movie_year INTEGER,
+    movie_rating TEXT,
+    director_first_name TEXT
+);
+
+CREATE TABLE cast (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    movie_id INTEGER,
+    movie_name TEXT,
+    cast_first_name TEXT,
+    cast_last_name TEXT,
+    character_name TEXT,
+    character_role_rank INTEGER
+);
+
+-- COMPLETE the ASSINGMENT
+.read kmdb.sql

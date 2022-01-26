@@ -107,16 +107,15 @@ DROP TABLE IF EXISTS cast;
 
 CREATE TABLE movies (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    movie_id INTEGER,
     movie_name TEXT,
     movie_year INTEGER,
     movie_rating TEXT,
-    director_first_name TEXT
+    director_first_name TEXT,
+    director_last_name TEXT
 );
 
 CREATE TABLE cast (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    movie_id INTEGER,
     movie_name TEXT,
     cast_first_name TEXT,
     cast_last_name TEXT,
@@ -124,3 +123,45 @@ CREATE TABLE cast (
     character_role_rank INTEGER
 );
 
+--Insert (CRUD) Data Movies
+INSERT INTO movies (
+    movie_name,
+    movie_year,
+    movie_rating,
+    director_first_name,
+    director_last_name
+) VALUES (
+    "Batman Begins",
+    "2005",
+    "PG-13",
+    "Christopher",
+    "Nolan"
+);
+
+INSERT INTO movies (
+    movie_name,
+    movie_year,
+    movie_rating,
+    director_first_name,
+    director_last_name
+) VALUES (
+    "The Dark Knight",
+    "2008",
+    "PG-13",
+    "Christopher",
+    "Nolan"
+);
+
+INSERT INTO movies (
+    movie_name,
+    movie_year,
+    movie_rating,
+    director_first_name,
+    director_last_name
+) VALUES (
+    "The Dark Knight Rises",
+    "2012",
+    "PG-13",
+    "Christopher",
+    "Nolan"
+);

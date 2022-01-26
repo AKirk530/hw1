@@ -123,8 +123,7 @@ CREATE TABLE cast (
 );
 
 -- Increase Column Character Length
-.width 25 25 25 25;
-
+.width 25 20 20 20;
 
 --Insert (CRUD) Data Movies
 INSERT INTO movies (
@@ -183,6 +182,7 @@ INSERT INTO cast (
     "Bruce Wayne",
     "1"
 );
+
 INSERT INTO cast (
     movie_name,
     cast_first_name,
@@ -253,6 +253,7 @@ INSERT INTO cast (
     "Bruce Wayne",
     "1"
 );
+
 INSERT INTO cast (
     movie_name,
     cast_first_name,
@@ -323,6 +324,7 @@ INSERT INTO cast (
     "Bruce Wayne",
     "1"
 );
+
 INSERT INTO cast (
     movie_name,
     cast_first_name,
@@ -390,3 +392,5 @@ SELECT movie_name, movie_year, movie_rating, director_first_name, director_last_
 .print "========"
 .print ""
 SELECT movie_name, cast_first_name, cast_last_name, character_name FROM cast;
+
+--Complete

@@ -90,7 +90,6 @@
 .print "========"
 .print ""
 
-
 -- The SQL statement for the cast output
 -- TODO!
 
@@ -381,5 +380,13 @@ INSERT INTO cast (
 );
 
 --Produce Results
+.print "Movies"
+.print "======"
+.print ""
 SELECT movie_name, movie_year, movie_rating, director_first_name, director_last_name FROM movies;
+
+.print ""
+.print "Top Cast"
+.print "========"
+.print ""
 SELECT movie_name, cast_first_name, cast_last_name, character_name FROM cast;

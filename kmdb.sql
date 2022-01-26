@@ -94,10 +94,10 @@
 -- The SQL statement for the cast output
 -- TODO!
 
-ANSWERS:
+-- ANSWERS:
 
 -- Generate NEW SQLite database
-sqlite3 kmdb.sqlite3
+-- sqlite3 kmdb.sqlite3
 
 -- Drop existing tables, so we start fresh
 -- run of this script
@@ -124,5 +124,3 @@ CREATE TABLE cast (
     character_role_rank INTEGER
 );
 
--- COMPLETE the ASSINGMENT
-.read kmdb.sql

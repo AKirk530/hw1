@@ -93,3 +93,11 @@
 
 -- The SQL statement for the cast output
 -- TODO!
+
+ANSWERS:
+
+>>>Generate NEW SQLite database<<<
+sqlite3 kmbd.sqlite3
+
+>>>COMPLETE the ASSINGMENT<<<
+.read kmbd.sql

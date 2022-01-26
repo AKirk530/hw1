@@ -123,6 +123,11 @@ CREATE TABLE cast (
     character_role_rank INTEGER
 );
 
+-- Increase Column Character Length
+ALTER TABLE movies
+MODIFY movie_name
+NCHAR (500);
+
 --Insert (CRUD) Data Movies
 INSERT INTO movies (
     movie_name,
@@ -375,3 +380,7 @@ INSERT INTO cast (
     "Selina Kyle",
     "5"
 );
+
+--Produce Results
+
+SELECT movie_name, cast_first_name, cast_last_name, character_name FROM cast;
